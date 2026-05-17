@@ -1,0 +1,16 @@
+# .env
+DATABASE_URL="postgresql://user:password@localhost:5432/goalportal"
+NEXTAUTH_SECRET="your-secret-key-here"
+NEXTAUTH_URL="[localhost](http://localhost:3000)"
+
+# Optional: Azure AD / Entra ID
+AZURE_AD_CLIENT_ID=""
+AZURE_AD_CLIENT_SECRET=""
+AZURE_AD_TENANT_ID=""
+
+# Optional: Email
+SMTP_HOST=""
+SMTP_PORT=""
+SMTP_USER=""
+SMTP_PASSWORD=""
+EMAIL_FROM=""
